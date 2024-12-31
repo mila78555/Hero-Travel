@@ -90,19 +90,11 @@ body {
     background-color: darkorange;
 }
 
-.navber ul {
-    list-style: none;
-    display: flex;
-}
-
-.navber ul li {
-    margin-left: 5px;
-}
-
 .navber ul li a {
-    text-decoration: none;
+    display: flex;
     color: #333;
-    font-size: bold;
+    margin: 2% 15%;
+    justify-content: space-between;
 }
 
 
@@ -188,4 +180,187 @@ body {
 .right {
     flex: 50%;
     padding: 0 4px;
+}
+
+.right img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.left-title {
+    margin: 50px;
+    background-color: aliceblue;
+    background-size: 100%;
+    height: 100%;
+}
+
+.left-subtitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+.right-subtitle {
+    text-align: center;
+    font-size: 10px;
+    color: #333;
+}
+
+.hero-title {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.king-title {
+    background-color: aquamarine;
+}
+
+.list-title {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.list-subtitle {
+    background-color: rgb(241, 241, 178);
+}
+
+.main-title {
+    background-color: blanchedalmond;
+}
+
+/* deals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subtitle h1 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.erdoll {
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.details {
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.details p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.details h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.details .money {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.details button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details button:hover {
+    background-color: #e65c00;
+}
+
+
+.See-1 button {
+    height: 40px;
+    width: 290px;
+    background-color: #FF5400;
+    border: none;
+    color: white;
+    border-radius: 6px;
+
+}
+
+.conten {
+    text-align: center;
+    color: #555;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.little-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.moon-image {
+    height: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.travel {
+    color: #ff6600;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.social a img {
+    width: 24px;
+    margin: 0, 5px;
+
+}
+
+.social a img:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 2px;
+    color: #888;
 }
